@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-app-java-backstage"
+  description: "test-app-java-backstage"
+  annotations:
+    github.com/project-slug: "lucatodeschini/test-app-java-backstage"
+    backstage.io/techdocs-ref: github:https://github.com/lucatodeschini/test-app-java-backstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "lucatodeschini"
